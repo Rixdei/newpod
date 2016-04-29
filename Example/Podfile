@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'newpod_Example', :exclusive => true do
+  pod 'newpod', :path => '../'
+end
+
+target 'newpod_Tests', :exclusive => true do
+  pod 'newpod', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
