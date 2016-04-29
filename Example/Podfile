@@ -5,7 +5,7 @@ target 'newpod_Example', :exclusive => true do
 end
 
 target 'newpod_Tests', :exclusive => true do
-  pod 'newpod', :path => '../'
+  pod 'newpod', :path => '1234../'
 
   pod 'Specta'
   pod 'Expecta'
