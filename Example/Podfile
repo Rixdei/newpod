@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'newpod_Example', :exclusive => true do
-  pod 'newpod', :path => '../'
+  pod 'newpod', :path => '1234../'
 end
 
 target 'newpod_Tests', :exclusive => true do
